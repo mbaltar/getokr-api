@@ -7,15 +7,6 @@ const
 module.exports = (companies) => (
 
     [
-        new Tag({
-            name: 'Marketing',
-            company: _.find(companies, company => company.fantasyName === 'FCamara'),
-        }),
-
-        new Tag({
-            name: 'DP',
-            company: _.find(companies, company => company.fantasyName === 'FCamara'),
-        })
     ]
 
 )

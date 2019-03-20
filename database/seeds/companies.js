@@ -8,19 +8,11 @@ module.exports = () => (
 
     [
         new Company({
-            fantasyName: 'FCamara',
+            fantasyName: 'GAPIP',
             plan: {
                 name: 'Business'
             },
-            phone: '(11) 3158-1049',
-            isActive: true
-        }),
-        new Company({
-            fantasyName: 'LinkApi',
-            plan: {
-                name: 'Business'
-            },
-            phone: '(11) 3158-1042',
+            phone: '(31) 98456-3747',
             isActive: true
         })
     ]
