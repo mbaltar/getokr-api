@@ -7,7 +7,7 @@ docker rmi -f getokr/getokr_api
 docker build -t getokr/getokr_api .
 
 docker run --restart=always -d -p 3000:3000 \
-        -e MONGO_HOST=DATABASEURL \
+        -e MONGO_HOST=mongodb://localhost:27017/getokr \
         -e SENDGRID_API_KEY=SENDGRIDKEY \
         -e CONTACT_EMAIL=CONTECTEMAIL \
         -e ACCESS_KEY_ID=AWSKEYID \
